@@ -30,6 +30,8 @@ public class LeitorArquivo {
             System.out.println(pessoa.getIdade());
             System.out.println(pessoa.getCidade());
 
+            teclado.close();
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
